@@ -1,6 +1,7 @@
 :root {
   --surface: #ffffff;
   --text: #19181a;
+  --min-the-design: 1440px;
   --desktop-min-width: 1280px;
   --tablet-min-width: 744px;
   --mobile-min-width: 320px;
@@ -11,20 +12,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-@font-face {
-  font-family: Oswald;
-  src: url('/fonts/Oswald-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Oswald;
-  src: url('/fonts/Oswald-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
 }
 
 html,
@@ -212,7 +199,7 @@ a {
   padding: 100px 0 0 130px;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 41px;
   color: var(--surface);
 }
 
@@ -230,7 +217,7 @@ a {
 .introduction__title {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 41px;
   color: var(--text);
   margin: 100px 0 20px 0;
   display: inline-block;
@@ -273,7 +260,7 @@ a {
 
 .our-achievements__wrapper {
   grid-column: 1 / 6;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .our-achievements__title {
@@ -329,12 +316,13 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 350px;
+  padding: 10px;
 }
 
 .hero__description {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 21px;
   color: var(--surface);
   text-align: center;
   line-height: 27px;
@@ -357,6 +345,7 @@ a {
   gap: 10px;
   align-items: center;
   text-align: center;
+  padding: 10px;
   transition:
     transform var(--element-transition),
     box-shadow var(--element-transition);
@@ -386,7 +375,7 @@ a {
 .benefits__card-description {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text);
   transition: color var(--element-transition);
 }
@@ -520,6 +509,17 @@ a {
   margin: 30px 0 10px 0;
 }
 
+@media (max-width: 1280px) {
+  .fitness-content__title {
+    font-size: 33px;
+  }
+
+  .introduction__title {
+    margin-top: 50px;
+    font-size: 34px;
+  }
+}
+
 @media (max-width: 744px) {
   .container {
     margin-inline: 30px;
@@ -573,7 +573,7 @@ a {
 
   .introduction__title {
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .introduction__description {
@@ -734,7 +734,7 @@ a {
 
   .introduction__description,
   .our-achievements__description {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .our-achievements {
