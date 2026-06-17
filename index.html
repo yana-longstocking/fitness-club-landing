@@ -1,13 +1,289 @@
 <!doctype html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Landing Page Starter</title>
+    <title>Superfit</title>
+    <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <div class="container">
+      <header class="fitness-header">
+        <div class="fitness-header__container">
+          <a href="/" class="fitness-header__logo">
+            <img
+              src="./src/assets/icons/logo.svg"
+              alt="superfit"
+              class="fitness-header__logo-image"
+            />
+          </a>
+
+          <nav class="fitness-header__nav">
+            <div class="fitness-header__nav-phone">
+              <img
+                src="./src/assets/icons/icon-phone.svg"
+                alt="phone"
+                class="fitness-header__nav-phone-image"
+              />
+            </div>
+            <div class="fitness-header__nav-number">
+              <a
+                href="tel:+380671234567"
+                class="fitness-header__nav-phone-link"
+              >
+                +38 067 123 45 67
+              </a>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <div class="fitness-content">
+      <div class="fitness-content__info">
+        <h1 class="fitness-content__title">
+          Відкрийте для себе Superfit, де ваші прагнення перетворюються на
+          досягнення!
+        </h1>
+      </div>
+
+      <div class="fitness-content__wrapper">
+        <img
+          src="./src/assets/images/athlete.png"
+          alt="athlete"
+          class="fitness-content__image"
+        />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="introduction">
+        <div class="introduction__wrapper">
+          <img
+            src="./src/assets/images/training.png"
+            alt="training"
+            class="introduction__image"
+          />
+        </div>
+
+        <div class="introduction__info">
+          <h2 class="introduction__title">
+            Ласкаво Просимо До Тренажерного Залу Superfit!
+          </h2>
+          <p
+            class="introduction__description our-achievements__description--first"
+          >
+            У Superfit ми прагнемо допомогти вам досягти ваших фітнес-цілей і
+            вести більш здоровий і активний спосіб життя. Наші найсучасніші
+            засоби, досвідченні тренери та різноманітні фітнес-програми роблять
+            нас ідеальним місцем для любителів фітнесу будь-якого рівня.
+          </p>
+
+          <p class="introduction__description">
+            Наша команда сертифікованих тренерів захоплена фітнесом і віддана
+            вашому успіху. Незалежно від того, чи ви новачок у тренуваннях чи
+            досвідчений спорстмен, наші тренери тут, щоб надати індивідуальні
+            рекомендації, створити індивідуальні плани тренувань і дати ціні
+            поради ддя досягнення максимальних результатів.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="our-achievements">
+        <div class="our-achievements__wrapper">
+          <h3 class="our-achievements__title">Наші Переваги:</h3>
+
+          <div class="our-achievements__content">
+            <p
+              class="our-achievements__description our-achievements__description--first"
+            >
+              Ми віримо, що різноманітність є ключем до підтримки мотивації та
+              досягнення стійких результатів. Ось чому ми пропонуємо широкий
+              вибір фітнес-програм, включаючи високоефективні інтервальні
+              тренування (HIIT), силові тренування, групові заняття фітнесом,
+              йогою тощо. Незалежно від ваших уподобань чи фітнес-цілей, у нас є
+              програма, яка вам підходить.
+            </p>
+
+            <p class="our-achievements__description">
+              Приєднуйтеся до спільноти однодумців, які поділяють вашу
+              відданість фітнесу. Наш тренажерний зал — це не просто місце для
+              тренування — це місце для спілкування, пошуку мотивації та
+              спільного святкування ваших успіхів. Незалежно від того, потієте
+              ви на груповому занятті чи розширюєте свої межі у тренажерному
+              залі, вас буде оточувати підтримуюче та надихаюче середовище.
+            </p>
+
+            <p class="our-achievements__description">
+              У нас ви знайдете сучасний і добре обладнаний тренажерний зал,
+              який задовольнить усі ваші фітнес-потреби. Від найсучасніших
+              кардіотренажерів до повного набору вільної ваги та обладнання для
+              силових тренувань, у нас є все необхідне для створення
+              збалансованої програми тренувань.
+            </p>
+          </div>
+        </div>
+
+        <div class="our-achievements__foto">
+          <img
+            src="./src/assets/images/workout.png"
+            alt="workout"
+            class="our-achievements__image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="hero__wrapper">
+        <div class="hero__content">
+          <img
+            src="./src/assets/images/gym-motivation.png"
+            alt="gym-motivation"
+            class="hero__image"
+          />
+        </div>
+
+        <div class="hero__info">
+          <p class="hero__description">
+            Ми розуміємо, що життя може бути насиченим, тому ми пропонуємо
+            гнучкі варіанти членства. Виберіть план, який відповідає вашому
+            розкладу та фітнес-цілям.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="benefits">
+        <div class="benefits__wrapper">
+          <div class="benefits__card-one">
+            <img
+              src="./src/assets/icons/cycling.svg"
+              alt="cycling"
+              class="benefits__card-image"
+            />
+
+            <h3 class="benefits__card-title">Вирушайте до величі</h3>
+            <p class="benefits__card-description">
+              Ваша фітнес-мандрівка починається зараз. Відчуйте трансформацію,
+              яку можуть принести відданість, керівництво та спільнота.
+              Приєднуйтесь до Тренажерного залу Superfit і розгадайте найкращу
+              версію себе. Ваші цілі — наша місія, і разом ми переглянемо ваші
+              межі та відсвяткуємо ваші перемоги.
+            </p>
+          </div>
+
+          <div class="benefits__card-two">
+            <img
+              src="./src/assets/icons/stretching.svg"
+              alt="stretching"
+              class="benefits__card-image"
+            />
+
+            <h3 class="benefits__card-title">Нова гнучкість</h3>
+            <p class="benefits__card-description">
+              Ми розуміємо вимоги життя, тому наші плани членства розроблені
+              таким чином, щоб адаптуватися до вашого розкладу. Виберіть
+              тривалість членства, яка вам підходить, незалежно від того, чи є
+              ви відданим довгостроковим досягненням чи орієнтованим на мету
+              короткостроковим воїном.
+            </p>
+          </div>
+
+          <div class="benefits__card-three">
+            <img
+              src="./src/assets/icons/pull-up.svg"
+              alt="pull-up"
+              class="benefits__card-image"
+            />
+
+            <h3 class="benefits__card-title">Підживлюйте свою мотивацію</h3>
+            <p class="benefits__card-description">
+              У Superfit ви не просто учасник – ви є частиною спільноти
+              підтримки. Попотійте разом із іншими любителями фітнесу,
+              обмінюйтеся історіями тріумфу та знаходьте натхнення в кожній
+              краплі поту. Наш спортзал – це місце, де дружать і разом досягають
+              цілей.
+            </p>
+          </div>
+
+          <div class="benefits__card-four">
+            <img
+              src="./src/assets/icons/boxing.svg"
+              alt="boxing"
+              class="benefits__card-image"
+            />
+
+            <h3 class="benefits__card-title">Керівництво від професіоналів</h3>
+            <p class="benefits__card-description">
+              Наша команда досвідчених тренерів не просто обізнана, вони
+              захоплені зміною життя за допомогою фітнесу. Якщо ви формуєте свою
+              фігуру, підвищуєте витривалість або тренуєтеся для певного виду
+              спорту, наші тренери розроблять індивідуальні плани, щоб
+              забезпечити досягнення ваших цілей.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__content">
+          <h3 class="footer__title">Контакти</h3>
+          <ul class="footer__list">
+            <li class="footer__item footer__item--first">
+              <img
+                src="./src/assets/icons/location-icon.svg"
+                alt=""
+                class="footer__item-icon"
+              />
+              <a
+                href="https://www.google.com/maps/place/Bratyslavska+St,+14Б,+Kyiv,+Ukraine,+02000/@50.4501,30.5194,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4ce50f8b6e3c3:0x5c38b6c2be5e85d8!8m2!3d50.4501!4d30.5194!16s%2Fg%2F11c48_tchq?entry=ttu&g_ep=EgoyMDI2MDIyNi4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                >вулиця Бретиславська, 14-Б, Київ, Україна, 02166</a
+              >
+            </li>
+            <li class="footer__item">
+              <img
+                src="./src/assets/icons/icon-phone.svg"
+                alt=""
+                class="footer__item-icon"
+              />
+              <a href="tel:+380671234567">+38 067 123 45 67</a>
+            </li>
+            <li class="footer__item">
+              <img
+                src="./src/assets/icons/envelope-icon.svg"
+                alt=""
+                class="footer__item-icon"
+              />
+              <a href="mailto:office@superfit.com">office@superfit.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__right">
+          <div class="footer__map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.497704936338!2d30.51940!3d50.45010!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce50f8b6e3c3%3A0x5c38b6c2be5e85d8!2sBratyslavska%20St%2C%2014Б%2C%20Kyiv%2C%20Ukraine%2C%2002000!5e0!3m2!1sen!2s!4v1700000000000"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2023. Всі права захищені.</p>
+        <a href="#" class="footer__policy">Політика конфіденційності</a>
+      </div>
+    </footer>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
