@@ -27,7 +27,6 @@
   font-style: normal;
 }
 
-
 html,
 body {
   scroll-behavior: smooth;
@@ -35,7 +34,13 @@ body {
   padding: 0;
   overflow-x: hidden;
   background-color: var(--surface);
-  font-family: Oswald, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-family:
+    Oswald,
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    sans-serif;
 }
 
 h1,
@@ -71,7 +76,9 @@ a {
 .fitness-header__logo-image {
   width: 100px;
   height: auto;
-  transition: transform var(--element-transition), filter var(--element-transition);
+  transition:
+    transform var(--element-transition),
+    filter var(--element-transition);
 }
 
 .fitness-header__nav {
@@ -97,7 +104,9 @@ a {
 .fitness-header__nav-phone-link {
   color: var(--text);
   font-size: 12px;
-  transition: color var(--element-transition), text-shadow var(--element-transition);
+  transition:
+    color var(--element-transition),
+    text-shadow var(--element-transition);
 }
 
 @keyframes logoPulse {
@@ -156,18 +165,21 @@ a {
     color: rgba(204, 216, 255, 0.9);
   }
 
-  
   .footer__item:hover .footer__item-icon {
     animation: contactIconPop var(--element-transition) forwards;
     filter: brightness(1.14) drop-shadow(0 0 4px rgba(142, 159, 232, 0.35));
   }
 
   .footer__map-wrapper {
-    transition: transform var(--element-transition), box-shadow var(--element-transition);
+    transition:
+      transform var(--element-transition),
+      box-shadow var(--element-transition);
   }
 
   .footer__map-wrapper iframe {
-    transition: transform var(--element-transition), filter var(--element-transition);
+    transition:
+      transform var(--element-transition),
+      filter var(--element-transition);
     transform-origin: center;
   }
 
@@ -182,7 +194,6 @@ a {
   }
 }
 
-
 .fitness-content {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -196,7 +207,6 @@ a {
 .fitness-content__wrapper {
   grid-column: 7 / -1;
 }
-
 
 .fitness-content__title {
   padding: 100px 0 0 130px;
@@ -229,11 +239,11 @@ a {
 }
 
 .introduction__title::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 110px;
+  width: 90px;
   height: 2px;
   background: #414d84;
 }
@@ -254,13 +264,11 @@ a {
   margin-top: 0;
 }
 
-
 .our-achievements {
   margin-top: 56px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 30px;
-  
 }
 
 .our-achievements__wrapper {
@@ -280,11 +288,11 @@ a {
 }
 
 .our-achievements__title::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 110px;
+  width: 90px;
   height: 2px;
   background: #414d84;
 }
@@ -314,10 +322,9 @@ a {
   position: relative;
 }
 
-
 .hero__info {
   position: absolute;
-  background: #080F1E94;
+  background: #080f1e94;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -350,7 +357,9 @@ a {
   gap: 10px;
   align-items: center;
   text-align: center;
-  transition: transform var(--element-transition), box-shadow var(--element-transition);
+  transition:
+    transform var(--element-transition),
+    box-shadow var(--element-transition);
 }
 
 .benefits__card-image {
@@ -360,7 +369,9 @@ a {
   object-fit: contain;
   object-position: center;
   margin: 0 auto 12px;
-  transition: transform var(--element-transition), filter var(--element-transition);
+  transition:
+    transform var(--element-transition),
+    filter var(--element-transition);
 }
 
 .benefits__card-title {
@@ -438,7 +449,9 @@ a {
   font-size: 22px;
   text-transform: uppercase;
   margin-bottom: 8px;
-  transition: color var(--element-transition), text-shadow var(--element-transition);
+  transition:
+    color var(--element-transition),
+    text-shadow var(--element-transition);
 }
 
 .footer__list {
@@ -453,17 +466,20 @@ a {
   gap: 8px;
   font-size: 11px;
   margin-top: 10px;
-  transition: color 0.25s ease, transform 0.25s ease;
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
 }
 
 .footer__item a {
-  transition: color var(--element-transition), text-shadow var(--element-transition);
+  transition:
+    color var(--element-transition),
+    text-shadow var(--element-transition);
 }
 
 .footer__item--first {
   margin-top: 0;
 }
-
 
 .footer__item-icon {
   width: 15px;
@@ -487,7 +503,6 @@ a {
   height: 76px;
   border: 0;
 }
-
 
 .footer__bottom {
   border-top: 1px solid #7c82a2;
@@ -531,7 +546,7 @@ a {
     grid-template-columns: repeat(6, 1fr);
   }
 
- .fitness-content__info {
+  .fitness-content__info {
     grid-column: 1 / 4;
   }
 
@@ -555,7 +570,6 @@ a {
   .introduction__info {
     grid-column: auto;
   }
-
 
   .introduction__title {
     margin-top: 40px;
@@ -631,7 +645,7 @@ a {
   }
 
   .footer__wrapper {
-    margin-inline: 30px; 
+    margin-inline: 30px;
   }
 
   .footer__title {
@@ -689,7 +703,6 @@ a {
     grid-column: auto;
   }
 
-  
   .fitness-content__title {
     padding: 20px 20px;
     font-size: 20px;
@@ -706,18 +719,17 @@ a {
     gap: 10px;
   }
 
-
   .introduction__title {
     font-size: 18px;
-    margin: 0 0 10px; 
+    margin: 0 0 10px;
   }
 
   .introduction__title::after {
-    width: 50px;
+    width: 45px;
   }
 
   .our-achievements__title::after {
-    width: 50px;
+    width: 45px;
   }
 
   .introduction__description,
